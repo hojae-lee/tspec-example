@@ -1,0 +1,23 @@
+{
+  "name": "tspec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "generate": "yarn tspec generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hojae-lee",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "typescript": "^4.8.3",
+    "@types/express": "^4.17.17"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "tspec": "^0.1.84"
+  }
+}
